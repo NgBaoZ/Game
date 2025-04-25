@@ -40,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -54,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -116,45 +116,51 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Layer_0004_Lights_0
+      name: Layer_0004_Lights_1
       rect:
         serializedVersion: 2
-        x: 12
-        y: 123
-        width: 242
-        height: 213
+        x: 281
+        y: 114
+        width: 342
+        height: 222
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 166, y: 109}
+        - {x: 165, y: 111}
+        - {x: 42, y: 111}
+        - {x: -171, y: -102}
+        - {x: -171, y: -111}
+        - {x: -54, y: -111}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 89676bbd3a236d760800000000000000
-      internalID: 7482223510269884056
+      spriteID: 2db75a89fcc1f9c80800000000000000
+      internalID: -8313894709157856302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Layer_0004_Lights_1
+      name: Layer_0004_Lights_0
       rect:
         serializedVersion: 2
-        x: 275
-        y: 114
-        width: 342
-        height: 222
+        x: 2
+        y: 107
+        width: 261
+        height: 236
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2db75a89fcc1f9c80800000000000000
-      internalID: -8313894709157856302
+      spriteID: 643b68bfe38e6c34792afe0732c558f5
+      internalID: 7482223510269884056
       vertices: []
       indices: 
       edges: []
@@ -163,7 +169,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 913f349840e6a73409a0fb3eb2e5c668
     internalID: 0
     vertices: []
     indices: 
@@ -172,7 +178,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Layer_0004_Lights_0: 7482223510269884056
+      Layer_0004_Lights_1: -8313894709157856302
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
