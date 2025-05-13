@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5d4769d69cf757e4abf70439bca0b046
+guid: b12290933ba512244a21abc877a21306
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7281867816328864950
-    second: idle_knight_2_0
+      213: -5878496117082585361
+    second: idle_knight_1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -113,12 +113,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle_knight_2_0
+      name: idle_knight_1_0
       rect:
         serializedVersion: 2
-        x: 15
+        x: 16
         y: 0
-        width: 31
+        width: 30
         height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4b5e525dcb91fa90800000000000000
-      internalID: -7281867816328864950
+      spriteID: fe687c75de26b6ea0800000000000000
+      internalID: -5878496117082585361
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      idle_knight_1_0: -5878496117082585361
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
